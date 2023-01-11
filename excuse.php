@@ -38,7 +38,7 @@
 <body>
     <main>
         <header class="main-header">
-            <p class="main-header__logo">Excuse Notes Generator</p>
+            <p class="main-header__logo">Excuse <span class="highligth">Notes</span> Generator</p>
         </header>
         <section class="main-section container">
             <h1 class="main-heading"> Please fill-in the form below</h1>

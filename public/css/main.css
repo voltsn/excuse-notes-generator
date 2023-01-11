@@ -44,6 +44,10 @@ main {
   flex-wrap: wrap;
 }
 
+.highligth {
+  color: #3818FA;
+}
+
 .container {
   margin: 0 auto;
   max-width: 70rem;
