@@ -44,9 +44,22 @@ main {
   flex-wrap: wrap;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 70rem;
+  width: 90%;
+}
+
 .main-header {
   font-size: clamp(1.5rem, 1.3239rem + 0.7512vw, 2rem);
   padding: 0.8em 0;
+  text-align: center;
+}
+
+.main-section .main-heading {
+  font-size: 1.3rem;
+  margin: 1em auto;
+  max-width: 30rem;
   text-align: center;
 }
 

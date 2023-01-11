@@ -27,3 +27,9 @@ main{
 .wrap{
     flex-wrap: wrap;
 }
+
+.container{
+    margin: 0 auto;
+    max-width: 70rem;
+    width: 90%;
+}

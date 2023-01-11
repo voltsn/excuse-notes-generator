@@ -38,7 +38,7 @@
         <header class="main-header">
             <p class="main-header__logo">Excuse Notes Generator</p>
         </header>
-        <section class="container">
+        <section class="main-section container">
             <h1 class="main-heading"> Please fill-in the form below.</h1>
 
             <form class="excuse-form flex gap-md direction-column" method="get" action="./excuse.php">
