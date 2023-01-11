@@ -3,3 +3,27 @@
 main{
     font-family: "Manrope";
 }
+
+.flex{
+    display: flex;
+}
+
+.gap-xs{
+    gap: .5em;
+}
+
+.gap-sm{
+    gap: .8em;
+}
+
+.gap-md{
+    gap: 1.3em;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}

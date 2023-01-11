@@ -1,0 +1,42 @@
+.excuse-form{
+    margin: 0 auto;
+    max-width: 30rem;
+
+    .excuse-form__form-control{
+        .excuse-form__text-input{
+            font-size: .9rem;
+            margin-left: .8rem;
+            padding: .5em;
+        }
+    }
+
+    .excuse-form__group__title,
+    & > .excuse-form__form-control .excuse-form__label{
+        font-size: 1.125rem;
+        font-weight: 500;
+    }
+
+    .excuse-form__group{
+        .excuse-form__group__title{
+            width: 100%;
+        }
+        & .excuse-form__form-control{
+            margin-left: .8rem; 
+        }
+    }
+
+    .excuse-form__submit-btn{
+        background-color: #111;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: .5em 1em;
+        align-self: start;
+
+        &:hover{
+            outline: 1px solid #111;
+            color: #111;
+            background-color: transparent;
+        }
+    }
+}

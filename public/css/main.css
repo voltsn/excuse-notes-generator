@@ -20,4 +20,61 @@ main {
   font-family: "Manrope";
 }
 
+.flex {
+  display: flex;
+}
+
+.gap-xs {
+  gap: 0.5em;
+}
+
+.gap-sm {
+  gap: 0.8em;
+}
+
+.gap-md {
+  gap: 1.3em;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.excuse-form {
+  margin: 0 auto;
+  max-width: 30rem;
+}
+.excuse-form .excuse-form__form-control .excuse-form__text-input {
+  font-size: 0.9rem;
+  margin-left: 0.8rem;
+  padding: 0.5em;
+}
+.excuse-form .excuse-form__group__title, .excuse-form > .excuse-form__form-control .excuse-form__label {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.excuse-form .excuse-form__group .excuse-form__group__title {
+  width: 100%;
+}
+.excuse-form .excuse-form__group .excuse-form__form-control {
+  margin-left: 0.8rem;
+}
+.excuse-form .excuse-form__submit-btn {
+  background-color: #111;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  align-self: start;
+}
+.excuse-form .excuse-form__submit-btn:hover {
+  outline: 1px solid #111;
+  color: #111;
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=main.css.map */
