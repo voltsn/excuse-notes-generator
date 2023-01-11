@@ -39,7 +39,7 @@
             <p class="main-header__logo">Excuse Notes Generator</p>
         </header>
         <section class="main-section container">
-            <h1 class="main-heading"> Please fill-in the form below.</h1>
+            <h1 class="main-heading"> Please fill-in the form below</h1>
 
             <form class="excuse-form flex gap-md direction-column" method="get" action="./excuse.php">
 
@@ -74,7 +74,7 @@
 
                     <div class="flex direction-column gap-sm">
                         <div class="excuse-form__form-control">
-                            <label class="excuse-form__label" for="illness">Illnes</label>
+                            <label class="excuse-form__label" for="illness">Illness</label>
                             <input type="radio" name="absence" id="illness" value="illness" required>
                         </div>
     
@@ -101,7 +101,7 @@
         <?php 
             if ($excuse) {
                 echo "
-                        <div>
+                        <div class='container excuse reveal' id='excuse'>
                             <p> $greeting </p>
                             <p> $excuse </p>
                             <p> $closing_msg </p>

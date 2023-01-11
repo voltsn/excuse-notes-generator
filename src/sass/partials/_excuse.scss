@@ -1,0 +1,18 @@
+.excuse{
+    border: 1px solid #111;
+    background-color: #fff;
+    padding: 1em .8em;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    max-width: 30rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    p + p{
+        margin-top: .5em;
+    }
+
+    .date{
+        font-size: .85rem;
+    }
+}

@@ -96,4 +96,21 @@ main {
   background-color: transparent;
 }
 
+.excuse {
+  border: 1px solid #111;
+  background-color: #fff;
+  padding: 1em 0.8em;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  max-width: 30rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.excuse p + p {
+  margin-top: 0.5em;
+}
+.excuse .date {
+  font-size: 0.85rem;
+}
+
 /*# sourceMappingURL=main.css.map */
