@@ -41,51 +41,57 @@
         <section class="container">
             <h1 class="main-heading"> Please fill-in the form below.</h1>
 
-            <form class="excuse-form" method="get" action="./excuse.php">
+            <form class="excuse-form flex gap-md direction-column" method="get" action="./excuse.php">
 
-                <div class="excuse-form__form-control">
+                <div class="excuse-form__form-control flex direction-column gap-xs">
                     <label class="excuse-form__label" for="name">Your child's name:</label>
                     <input type="text" class="excuse-form__text-input" name="name" id="name" required>
                 </div>
     
-                <div class="excuse-form__group">
-                    <p class="excuse-form__group__title">Your child's gender: <p>
-                    <div class="excuse-form__form-control">
-                        <label class="excuse-form__label" for="f">F</label>
-                        <input type="radio" name="gender" id="f" value="F" required>
-                    </div>
+                <div class="excuse-form__group flex wrap gap-sm">
+                    <p class="excuse-form__group__title">Your child's gender: </p>
 
-                    <div class="excuse-form__form-control">
-                        <label class="excuse-form__label" for="m">M</label>
-                        <input type="radio" name="gender" id="m" value="M">
+                    <div class="flex gap-xs">
+                        <div class="excuse-form__form-control">
+                            <label class="excuse-form__label" for="f">F</label>
+                            <input type="radio" name="gender" id="f" value="F" required>
+                        </div>
+    
+                        <div class="excuse-form__form-control">
+                            <label class="excuse-form__label" for="m">M</label>
+                            <input type="radio" name="gender" id="m" value="M">
+                        </div>
                     </div>
                 </div>
 
-                <div class="excuse-form__form-control">
+                <div class="excuse-form__form-control flex direction-column gap-xs">
                     <label class="excuse-form__label" for="teacher">The teacher's name:</label>
                     <input type="text" class="excuse-form__text-input" name="teacher" id="teacher" required>
                 </div>
     
-                <div class="excuse-form__group">
+                <div class="excuse-form__group flex direction-column gap-xs">
                     <p class="excuse-form__group__title">Reason for the absence:</p>
-                    <div class="excuse-form__form-control">
-                        <label class="excuse-form__label" for="illness">Illnes</label>
-                        <input type="radio" name="absence" id="illness" value="illness" required>
-                    </div>
 
-                    <div class="excuse-form__form-control">
-                        <label class="excuse-form__label" for="death">Death of a pet (or a family member)</label>
-                        <input type="radio" name="absence" id="death" value="death">
-                    </div>
-
-                    <div class="excuse-form__form-control">
-                        <label class="excuse-form__label" for="extra">Significant extra-curricular activity</label>
-                        <input type="radio" name="absence" id="extra" value="extra">
-                    </div>
-                    
-                    <div class="excuse-form__form-control">
-                        <label class="excuse-form__label" for="other">Public transportation</label>
-                        <input type="radio" name="absence" id="other" value="transportation">
+                    <div class="flex direction-column gap-sm">
+                        <div class="excuse-form__form-control">
+                            <label class="excuse-form__label" for="illness">Illnes</label>
+                            <input type="radio" name="absence" id="illness" value="illness" required>
+                        </div>
+    
+                        <div class="excuse-form__form-control">
+                            <label class="excuse-form__label" for="death">Death of a pet (or a family member)</label>
+                            <input type="radio" name="absence" id="death" value="death">
+                        </div>
+    
+                        <div class="excuse-form__form-control">
+                            <label class="excuse-form__label" for="extra">Significant extra-curricular activity</label>
+                            <input type="radio" name="absence" id="extra" value="extra">
+                        </div>
+                        
+                        <div class="excuse-form__form-control">
+                            <label class="excuse-form__label" for="other">Public transportation</label>
+                            <input type="radio" name="absence" id="other" value="transportation">
+                        </div>
                     </div>
                 </div>
     
