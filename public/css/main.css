@@ -80,14 +80,14 @@ main {
   width: 100%;
 }
 .excuse-form .excuse-form__group .excuse-form__form-control {
-  margin: 0 0.8rem;
+  margin-left: 0.8rem;
 }
 .excuse-form .excuse-form__submit-btn {
   background-color: #111;
   border: none;
   color: #fff;
   cursor: pointer;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   align-self: start;
 }
 .excuse-form .excuse-form__submit-btn:hover {

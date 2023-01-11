@@ -51,7 +51,7 @@
                 <div class="excuse-form__group flex wrap gap-xs">
                     <p class="excuse-form__group__title">Your child's gender: </p>
 
-                    <div class="flex gap-xs">
+                    <div class="flex">
                         <div class="excuse-form__form-control">
                             <label class="excuse-form__label" for="f">F</label>
                             <input type="radio" name="gender" id="f" value="F" required>
