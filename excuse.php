@@ -48,7 +48,7 @@
                     <input type="text" class="excuse-form__text-input" name="name" id="name" required>
                 </div>
     
-                <div class="excuse-form__group flex wrap gap-sm">
+                <div class="excuse-form__group flex wrap gap-xs">
                     <p class="excuse-form__group__title">Your child's gender: </p>
 
                     <div class="flex gap-xs">
