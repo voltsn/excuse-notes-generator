@@ -1,8 +1,8 @@
 <?php
     $excuses = Array(
         "illness" => "My -son/daughter-, will not be attending class today due health reasons. Our family doctor recommended that -name- took a day off.",
-        "death" => "Recently, we lost Felix, -name-'s cousin. The funeral is planned for tommorrow, for this reason our -son/daughter-, wont be attending school tommorrow.",
-        "extra" => "Tommorrow is the championship game of -name-'s football team. our -son/daugther- trained very hard for this event, therefore -name- wont be able to attend school tommorrow.",
+        "death" => "Recently, we lost Felix, -name-'s cousin. The funeral is planned for tommorrow, for this reason our -son/daughter-, won't be attending school tommorrow.",
+        "extra" => "Tommorrow is the championship game of -name-'s football team. Our -son/daughter- trained very hard for this event, therefore -name- won't be able to attend school tommorrow.",
         "transportation" => "Due to some issues with the rail way, -name- will not be able to attend class.",
     );
 
