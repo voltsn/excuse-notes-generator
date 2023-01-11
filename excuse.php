@@ -49,25 +49,25 @@
                 </div>
     
                 <div class="excuse-form__group">
-                    <p class="excuse-form__group__title">Your child's gender<p>
+                    <p class="excuse-form__group__title">Your child's gender: <p>
                     <div class="excuse-form__form-control">
                         <label class="excuse-form__label" for="f">F</label>
                         <input type="radio" name="gender" id="f" value="F" required>
                     </div>
 
                     <div class="excuse-form__form-control">
-                        <label class="form-label" for="m">M</label>
+                        <label class="excuse-form__label" for="m">M</label>
                         <input type="radio" name="gender" id="m" value="M">
                     </div>
                 </div>
 
                 <div class="excuse-form__form-control">
                     <label class="excuse-form__label" for="teacher">The teacher's name:</label>
-                    <input type="text" class="text-input" name="teacher" id="teacher" required>
+                    <input type="text" class="excuse-form__text-input" name="teacher" id="teacher" required>
                 </div>
     
                 <div class="excuse-form__group">
-                    <p class="excuse-form__group__title">Reason for the absence</p>
+                    <p class="excuse-form__group__title">Reason for the absence:</p>
                     <div class="excuse-form__form-control">
                         <label class="excuse-form__label" for="illness">Illnes</label>
                         <input type="radio" name="absence" id="illness" value="illness" required>
