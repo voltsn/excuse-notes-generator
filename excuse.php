@@ -43,37 +43,51 @@
 
             <form class="excuse-form" method="get" action="./excuse.php">
 
-                <label class="excuse-form__label" for="name">Your child's name:</label>
-                <input type="text" class="excuse-form__text-input" name="name" id="name" required>
+                <div class="excuse-form__form-control">
+                    <label class="excuse-form__label" for="name">Your child's name:</label>
+                    <input type="text" class="excuse-form__text-input" name="name" id="name" required>
+                </div>
     
-                <fieldset class="excuse-form__fieldset">
-                    <legend>Your child's gender</legend>
+                <div class="excuse-form__group">
+                    <p>Your child's gender<p>
+                    <div class="excuse-form__form-control">
+                        <label class="excuse-form__label" for="f">F</label>
+                        <input type="radio" name="gender" id="f" value="F" required>
+                    </div>
+
+                    <div class="excuse-form__form-control">
+                        <label class="form-label" for="m">M</label>
+                        <input type="radio" name="gender" id="m" value="M">
+                    </div>
+                </div>
+
+                <div class="excuse-form__form-control">
+                    <label class="excuse-form__label" for="teacher">The teacher's name:</label>
+                    <input type="text" class="text-input" name="teacher" id="teacher" required>
+                </div>
     
-                    <label class="excuse-form__label" for="f">F</label>
-                    <input type="radio" name="gender" id="f" value="F" required>
-    
-                    <label class="form-label" for="m">M</label>
-                    <input type="radio" name="gender" id="m" value="M">
-                </fieldset>
-    
-                <label class="excuse-form__label" for="teacher">The teacher's name:</label>
-                <input type="text" class="text-input" name="teacher" id="teacher" required>
-    
-                <fieldset class="excuse-form__fieldset">
-                    <legend>Reason for the absence</legend>
-    
-                    <label class="excuse-form__label" for="illness">Illnes</label>
-                    <input type="radio" name="absence" id="illness" value="illness" required>
-    
-                    <label class="excuse-form__label" for="death">Death of a pet (or a family member)</label>
-                    <input type="radio" name="absence" id="death" value="death">
-    
-                    <label class="excuse-form__label" for="extra">Significant extra-curricular activity</label>
-                    <input type="radio" name="absence" id="extra" value="extra">
-    
-                    <label class="excuse-form__label" for="other">Public transportation</label>
-                    <input type="radio" name="absence" id="other" value="transportation">
-                </fieldset>
+                <div class="excuse-form__group">
+                    <p>Reason for the absence</p>
+                    <div class="excuse-form__form-control">
+                        <label class="excuse-form__label" for="illness">Illnes</label>
+                        <input type="radio" name="absence" id="illness" value="illness" required>
+                    </div>
+
+                    <div class="excuse-form__form-control">
+                        <label class="excuse-form__label" for="death">Death of a pet (or a family member)</label>
+                        <input type="radio" name="absence" id="death" value="death">
+                    </div>
+
+                    <div class="excuse-form__form-control">
+                        <label class="excuse-form__label" for="extra">Significant extra-curricular activity</label>
+                        <input type="radio" name="absence" id="extra" value="extra">
+                    </div>
+                    
+                    <div class="excuse-form__form-control">
+                        <label class="excuse-form__label" for="other">Public transportation</label>
+                        <input type="radio" name="absence" id="other" value="transportation">
+                    </div>
+                </div>
     
                 <input type="submit" class="excuse-form__submit-btn" name="submit" value="Submit">
             </form>
