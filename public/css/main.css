@@ -69,7 +69,7 @@ main {
 }
 .excuse-form .excuse-form__form-control .excuse-form__text-input {
   font-size: 0.9rem;
-  margin-left: 0.8rem;
+  margin: 0 0.8rem;
   padding: 0.5em;
 }
 .excuse-form .excuse-form__group__title, .excuse-form > .excuse-form__form-control .excuse-form__label {
@@ -80,7 +80,7 @@ main {
   width: 100%;
 }
 .excuse-form .excuse-form__group .excuse-form__form-control {
-  margin-left: 0.8rem;
+  margin: 0 0.8rem;
 }
 .excuse-form .excuse-form__submit-btn {
   background-color: #111;
