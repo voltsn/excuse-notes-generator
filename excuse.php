@@ -11,6 +11,7 @@
     $excuse =  NULL;
     $greeting = Null;
     $closing_msg = NULL;
+    $date = date("l, d F Y");
     if (isset($_GET["name"]) and isset($_GET["teacher"]) and isset($_GET["gender"]) and isset($_GET["absence"])){
         $child = $_GET["name"];
         $gender = ($_GET["gender"] == "F" ? "daughter" : "son");
@@ -103,6 +104,7 @@
                 echo "
                         <div class='container excuse reveal' id='excuse'>
                             <p> $greeting </p>
+                            <p class='date'> $date </p>
                             <p> $excuse </p>
                             <p> $closing_msg </p>
                         </div>
@@ -111,5 +113,6 @@
         
         ?>
     </main>
+    <?php echo ($excuse ? "<script>document.querySelector('#excuse').scrollIntoView()</script>" : "");?>
 </body>
 </html>
